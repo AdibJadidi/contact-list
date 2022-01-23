@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.header-title {
+  border-bottom: 1px solid #ccc;
+  color: #fff;
+  background-color: #7c3aed;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .header-title {
+    height: 50px;
+  }
+}
